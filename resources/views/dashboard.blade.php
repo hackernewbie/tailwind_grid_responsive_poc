@@ -10,17 +10,56 @@
             </div>
         @endif
 
-        <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
+        <section class="parent">
 
-            <header class="font-semibold bg-gray-200 text-gray-700 py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
-                Dashboard
+        </section>
+        <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
+            <header class="flex justify-between w-full font-semibold bg-gray-200 text-gray-700 py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
+                <h2>
+                   Welcome To The ODAS Data-Sync Dashboard!
+                </h2>
+                <p class="text-gray-700">
+                    {{-- Welcome, <strong>{{auth()->user()->name}}</strong>! --}}
+                </p>
             </header>
 
-            <div class="w-full p-6">
-                <p class="text-gray-700">
-                    You are logged in!
-                </p>
-            </div>
+            <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+                <div class="border-1 rounded-md shadow-sm shadow-lg px-3 py-4 my-4 mx-4">
+                    <header class="w-full font-semibold bg-gray-200 text-gray-700 py-5 px-6 py-6 px-8 rounded-t-md">
+                        Hello Header
+                    </header>
+                    <div class="body w-full p-6">
+                        This is some body content.
+                    </div>
+                </div>
+
+                <div class="border-1 rounded-md shadow-sm shadow-lg px-3 py-4 my-4 mx-4">
+                    <header class="w-full font-semibold bg-gray-200 text-gray-700 py-5 px-6 py-6 px-8 rounded-t-md">
+                        Hello Header
+                    </header>
+                    <div class="body w-full p-6">
+                        This is some body content.
+                    </div>
+                </div>
+
+                <div class="border-1 rounded-md shadow-sm shadow-lg px-3 py-4 my-4 mx-4">
+                    <header class="w-full font-semibold bg-gray-200 text-gray-700 py-5 px-6 py-6 px-8 rounded-t-md">
+                        Hello Header
+                    </header>
+                    <div class="body w-full p-6">
+                        This is some body content.
+                    </div>
+                </div>
+
+                <div class="border-1 rounded-md shadow-sm shadow-lg px-3 py-4 my-4 mx-4">
+                    <header class="w-full font-semibold bg-gray-200 text-gray-700 py-5 px-6 py-6 px-8 rounded-t-md">
+                        Hello Header
+                    </header>
+                    <div class="body w-full p-6">
+                        This is some body content.
+                    </div>
+                </div>
+              </div>
         </section>
     </div>
 </main>
