@@ -10,9 +10,6 @@
             </div>
         @endif
 
-        <section class="parent">
-
-        </section>
         <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
             <header class="flex justify-between w-full font-semibold bg-gray-200 text-gray-700 py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
                 <h2>
@@ -59,7 +56,7 @@
                         This is some body content.
                     </div>
                 </div>
-              </div>
+            </div>
         </section>
     </div>
 </main>
